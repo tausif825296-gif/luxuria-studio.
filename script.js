@@ -13,12 +13,12 @@ facial:U('1570172619644-dfd03ed5d881'),nails:U('1604654894610-df63bc536371'),mas
 salon:U('1527799820374-dcf8d9d4a388'),makeup:U('1487412947147-5cebf100ffc2'),prod:U('1526947425960-945c6e72858f'),prod2:U('1571781926291-c477ebfd024b')};
 /* ================= SERVICE DATA (sample prices) ================= */
 const SERVICES=[
-['Haircut',299,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
-['Premium Haircut',499,'45 min','hair','cut2','Consultation, expert cut and finishing.'],
-['Hair Styling',399,'40 min','hair','style','Event-ready styling with professional products.'],
+[' professional Haircut',500,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
+['Premium hair set',100,'45 min','hair','cut2','Consultation, expert cut and finishing.'],
+['wolf cut with setting',500,'40 min','hair','style','Event-ready styling with professional products.'],
 ['Beard Styling',199,'20 min','beard','beard','Sharp shaping and line-up for a defined look.'],
-['Hair Wash & Blow Dry',299,'30 min','hair','wash','Relaxing wash with smooth blow-dry finish.'],
-['Hair Spa',799,'60 min','treatment','spa','Deep nourishing spa for soft, shiny hair.'],
+['dandruff- free treatment',700,'30 min','hair','wash','Relaxing wash with smooth blow-dry finish.'],
+['Hair Spa',500,'60 min','treatment','spa','Deep nourishing spa for soft, shiny hair.'],
 ['Keratin Treatment',2499,'2.5 hrs','treatment','treat','Frizz-free, glossy hair for months.'],
 ['Hair Smoothening',2499,'2.5 hrs','treatment','treat','Silky straight, manageable texture.'],
 ['Hair Coloring',999,'90 min','hair','color','Rich colour with lasting shine.'],
