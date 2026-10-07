@@ -3,7 +3,6 @@ const BIZ={name:'Luxuria Hair Studio',wa:'917004481440',phone:'+917004481440',ph
 insta:'https://www.instagram.com/luxuria_2.o?stkn=MXM1a2V3cDZoZGJmaw==',maps:'https://maps.app.goo.gl/QkuhzdCTH8g9Dybx5',
 logo:'https://i.ibb.co/dwCcqb83/Screenshot-20260929-151845.jpg',
 hours:{0:[8,20],1:[8,20],2:[8,20],3:[8,20],4:[8,20],5:null,6:[8,20]}}; // 0=Sun ... 5=Fri(closed)
-
 /* ================= IMAGE LIBRARY (replace URLs any time) ================= */
 const U=id=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=800&q=75`;
 const IMG={hero:'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1800&q=75',
@@ -13,29 +12,27 @@ treat:U('1595476108010-b4d1f102b1b1'),color:U('1492106087820-71f1a00d2b11'),brid
 facial:U('1570172619644-dfd03ed5d881'),nails:U('1604654894610-df63bc536371'),massage:U('1544161515-4ab6ce6db874'),
 salon:U('1527799820374-dcf8d9d4a388'),makeup:U('1487412947147-5cebf100ffc2'),prod:U('1526947425960-945c6e72858f'),prod2:U('1571781926291-c477ebfd024b')};
 /* ================= SERVICE DATA (sample prices) ================= */
-
-
 const SERVICES=[
-[' professional Haircut',500,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
-['Premium hair set',100,'45 min','hair','cut2','Consultation, expert cut and finishing.'],
-['wolf cut with setting',500,'40 min','hair','style','Event-ready styling with professional products.'],
+['Haircut',299,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
+['Premium Haircut',499,'45 min','hair','cut2','Consultation, expert cut and finishing.'],
+['Hair Styling',399,'40 min','hair','style','Event-ready styling with professional products.'],
 ['Beard Styling',199,'20 min','beard','beard','Sharp shaping and line-up for a defined look.'],
-['dandruff- free treatment',700,'30 min','hair','wash','Relaxing wash with smooth blow-dry finish.'],
-['Hair Spa',500,'60 min','treatment','spa','Deep nourishing spa for soft, shiny hair.'],
+['Hair Wash & Blow Dry',299,'30 min','hair','wash','Relaxing wash with smooth blow-dry finish.'],
+['Hair Spa',799,'60 min','treatment','spa','Deep nourishing spa for soft, shiny hair.'],
 ['Keratin Treatment',2499,'2.5 hrs','treatment','treat','Frizz-free, glossy hair for months.'],
 ['Hair Smoothening',2499,'2.5 hrs','treatment','treat','Silky straight, manageable texture.'],
 ['Hair Coloring',999,'90 min','hair','color','Rich colour with lasting shine.'],
-['Global black Color',300,'2 hrs','hair','color','Even, all-over colour from root to tip.'],
-['hair Highlights cuping',800,'2 hrs','hair','style','Dimensional highlights for a sun-kissed look.'],
-['  hair Highlights  per step',100,'45 min','treatment','spa','Cleansing care for a healthy scalp.'],
+['Global Hair Color',1499,'2 hrs','hair','color','Even, all-over colour from root to tip.'],
+['Highlights',1299,'2 hrs','hair','style','Dimensional highlights for a sun-kissed look.'],
+['Scalp Treatment',699,'45 min','treatment','spa','Cleansing care for a healthy scalp.'],
 ['Bridal Hairstyling',1999,'2 hrs','hair','bridal','Timeless bridal looks that last all day.'],
 ['Party Hairstyling',999,'60 min','hair','style','Glamorous styles for every occasion.'],
 ['Facial',699,'60 min','beauty','facial','Glow-boosting facial for fresh skin.'],
-['Cleanup',150,'40 min','beauty','facial','Quick deep-cleanse for instant freshness.'],
+['Cleanup',499,'40 min','beauty','facial','Quick deep-cleanse for instant freshness.'],
 ['Manicure',499,'45 min','beauty','nails','Shaping, care and polish for neat hands.'],
-['ash colour',2000,'50 min','care and finish.'],
-['Head perming',2000,'25 min','massage','massage','Stress-melting massage with warm oil.'],
-['Hair straightening',1500,'60 min','treatment','treat','Repair therapy for damaged hair.']
+['Pedicure',599,'50 min','beauty','nails','Soothing foot care and finish.'],
+['Head Massage',399,'25 min','massage','massage','Stress-melting massage with warm oil.'],
+['Hair Treatment',899,'60 min','treatment','treat','Repair therapy for damaged hair.']
 ].map(a=>({name:a[0],price:a[1],dur:a[2],cat:a[3],img:IMG[a[4]],desc:a[5]}));
 /* ================= PRODUCT DATA (sample) ================= */
 const PRODUCTS=[['Professional Shampoo',449,'Gentle daily salon-grade cleanse.'],['Hair Conditioner',429,'Silky softness and easy detangling.'],
