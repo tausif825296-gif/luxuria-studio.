@@ -4,13 +4,18 @@ insta:'https://www.instagram.com/luxuria_2.o?stkn=MXM1a2V3cDZoZGJmaw==',maps:'ht
 logo:'https://i.ibb.co/dwCcqb83/Screenshot-20260929-151845.jpg',
 hours:{0:[8,20],1:[8,20],2:[8,20],3:[8,20],4:[8,20],5:null,6:[8,20]}}; // 0=Sun ... 5=Fri(closed)
 /* ================= IMAGE LIBRARY (replace URLs any time) ================= */
-const U=id=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=800&q=75`;
+
+
+const U=id=>https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=800&q=75;
 const IMG={hero:'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1800&q=75',
-cut:U   "https://i.ibb.co/DPTWk2y5/Screenshot-20261004-215527.jpg"   ,cut2:U('1585747860715-2ba37e788b70'),style:U('1522337360788-8b13dee7a37e'),
+cut:U('1503951914875-452162b0f3f1'),cut2:U('1585747860715-2ba37e788b70'),style:U('1522337360788-8b13dee7a37e'),
 beard:U('1621605815971-fbc98d665033'),wash:U('1562322140-8baeececf3df'),spa:U('1519823551278-64ac92734fb1'),
 treat:U('1595476108010-b4d1f102b1b1'),color:U('1492106087820-71f1a00d2b11'),bridal:U('1519741497674-611481863552'),
 facial:U('1570172619644-dfd03ed5d881'),nails:U('1604654894610-df63bc536371'),massage:U('1544161515-4ab6ce6db874'),
 salon:U('1527799820374-dcf8d9d4a388'),makeup:U('1487412947147-5cebf100ffc2'),prod:U('1526947425960-945c6e72858f'),prod2:U('1571781926291-c477ebfd024b')};
+
+
+
 /* ================= SERVICE DATA (sample prices) ================= */
 const SERVICES=[
 [' professional Haircut',500,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
