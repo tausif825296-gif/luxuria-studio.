@@ -13,7 +13,7 @@ facial:U('1570172619644-dfd03ed5d881'),nails:U('1604654894610-df63bc536371'),mas
 salon:U('1527799820374-dcf8d9d4a388'),makeup:U('1487412947147-5cebf100ffc2'),prod:U('1526947425960-945c6e72858f'),prod2:U('1571781926291-c477ebfd024b')};
 /* ================= SERVICE DATA (sample prices) ================= */
 const SERVICES=[
-['Haircut',299,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
+['Haircut',333333333333333,'30 min','hair','cut','Clean, precise cut tailored to your face shape.'],
 ['Premium Haircut',499,'45 min','hair','cut2','Consultation, expert cut and finishing.'],
 ['Hair Styling',399,'40 min','hair','style','Event-ready styling with professional products.'],
 ['Beard Styling',199,'20 min','beard','beard','Sharp shaping and line-up for a defined look.'],
